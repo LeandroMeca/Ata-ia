@@ -1,5 +1,11 @@
 # Base de Conhecimento
 
+## Prompt sugerido para essa etapa:
+
+### Preciso organizar a base de conhecimento do agente ata condominio.
+
+- Tenho estes aarquivos de dados:[liste os arquivos]. Me ajude a:(1) entender o que cada arquivo conténm, (2) decidir como usar cada um, (3) criar um exemplo de contexto formatado para incluir no prompt.
+
 ## Dados Utilizados
 
 | Arquivo                      | Formato | Utilização no Agente                        |
@@ -121,7 +127,7 @@ A injeção vai ser manual através do prompt, para melhor precisão e mais dado
         [
             {
             "regra": "Barulho",
-            "descricao": "Não é permitido som alto após as 22h",
+            "descricao": "Não é permitido som alto idependente de horario",
             "categoria": "convivencia",
             "multa": true
             },

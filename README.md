@@ -1,28 +1,30 @@
-# 🤖 Agente ATA Condominio Inteligente com IA Generativa
+# 🤖 Agente ATA - Condomínio Inteligente com IA Generativa
 
-## Contexto
+## 📋 Contexto
 
-Passamos o dia oculpados com diversas tarefas cotidianas e muita das vezes nos deparamos com seguinte situação mudei de residencia isso significa vizinhos novos regras novas, quantas pessoas ao chegar na residencia nova acaba não se atentando a ATA, sim isso mesmo acontece com muita frequencia muitos não conseguem ler o regimento interno de um condominio, esse é um ponto chave para transformar essa base de dados de um papel em um agente **agentes inteligentes e proativos**. Neste desafio, você vai idealizar e prototipar um agente de condominio que utiliza IA Generativa para:
+Muitas vezes, no corre-corre do dia a dia, ao mudarmos de residência, somos apresentados a novos vizinhos e novas regras. Um problema comum é que muitos moradores não se atentam à **ATA** ou ao regimento interno do condomínio por serem documentos extensos e de difícil leitura.
 
-- **Entender todas regras** ao invés de apenas responder perguntas
-- **acesasr relatorio** saber quando alguém acessou seu apartamento
-- **Garantir segurança** e confiabilidade nas respostas (anti-alucinação)
+Este projeto visa transformar essa base de dados estática em um **agente inteligente e proativo**. O objetivo é prototipar um assistente que utiliza IA Generativa para:
+
+- **Interpretar as regras**: Em vez de apenas buscar palavras-chave, entender o contexto das normas.
+- **Relatórios de Acesso**: Permitir que o morador consulte rapidamente quem acessou sua unidade.
+- **Confiabilidade (Anti-alucinação)**: Garantir que o agente responda apenas com base nos documentos fornecidos.
 
 > [!TIP]
 > Na pasta [`examples/`](./examples/) você encontra referências de implementação para cada etapa deste desafio.
 
 ---
 
-## O Que Você Deve Entregar
+## 🚀 O Que Você Deve Entregar
 
 ### 1. Documentação do Agente
 
-Defina **o que** seu agente faz e **como** ele funciona:
+Defina o escopo e o funcionamento do seu assistente:
 
-- **Caso de Uso:** Qual suporte ele oderece? (ex: Segurança e Praticidade)
-- **Persona e Tom de Voz:** Como o agente se comporta e se comunica?
-- **Arquitetura:** Fluxo de dados e integração com a base de conhecimento
-- **Segurança:** Como evitar alucinações e garantir respostas confiáveis?
+- **Caso de Uso:** Suporte em segurança, normas e praticidade.
+- **Persona e Tom de Voz:** Como o agente se comunica (ex: prestativo, formal, direto).
+- **Arquitetura:** Fluxo de dados (RAG) e integração com a base.
+- **Segurança:** Estratégias para evitar respostas inventadas.
 
 📄 **Template:** [`docs/01-documentacao-agente.md`](./docs/01-documentacao-agente.md)
 
@@ -30,18 +32,16 @@ Defina **o que** seu agente faz e **como** ele funciona:
 
 ### 2. Base de Conhecimento
 
-Utilize os **dados mockados** disponíveis na pasta [`data/`](./data/) para alimentar seu agente:
+Utilize os **dados fictícios** disponíveis na pasta [`data/`](./data/) para alimentar seu agente:
 
-| Arquivo                      | Formato | Utilização no Agente                        |
-| ---------------------------- | ------- | ------------------------------------------- |
-| `ata_condominio.csv`         | CSV     | Regras seguidas da legislação de assembléia |
-| `morador.json`               | JSON    | Dados do morador e seus dados               |
-| `regras.json`                | JSON    | Regras gerais                               |
-| `ocorrencias_condominio.csv` | CSV     | ocorrências diarias                         |
-| `visitantes.json`            | JSON    | dados visitante                             |
-| `empresas.json`              | JSON    | tipos de serviços                           |
-
-Você pode adaptar ou expandir esses dados conforme seu caso de uso.
+| Arquivo                      | Formato | Descrição                                     |
+| :--------------------------- | :------ | :-------------------------------------------- |
+| `ata_condominio.csv`         | CSV     | Decisões de assembleias e legislação interna. |
+| `morador.json`               | JSON    | Cadastro de moradores e dependentes.          |
+| `regras.json`                | JSON    | Regimento interno e normas de convivência.    |
+| `ocorrencias_condominio.csv` | CSV     | Registro de manutenções e avisos.             |
+| `visitantes.json`            | JSON    | Registro histórico de entradas e saídas.      |
+| `empresas.json`              | JSON    | Lista de prestadores de serviços homologados. |
 
 📄 **Template:** [`docs/02-base-conhecimento.md`](./docs/02-base-conhecimento.md)
 
@@ -49,11 +49,11 @@ Você pode adaptar ou expandir esses dados conforme seu caso de uso.
 
 ### 3. Prompts do Agente
 
-Documente os prompts que definem o comportamento do seu agente:
+Documente a engenharia de prompts utilizada:
 
-- **System Prompt:** Instruções gerais de comportamento e restrições
-- **Exemplos de Interação:** Cenários de uso com entrada e saída esperada
-- **Tratamento de Edge Cases:** Como o agente lida com situações limite
+- **System Prompt:** Regras de comportamento e restrições de segurança.
+- **Exemplos (Few-shot):** Exemplos de perguntas e respostas ideais.
+- **Edge Cases:** Como o agente deve agir quando não encontrar uma resposta.
 
 📄 **Template:** [`docs/03-prompts.md`](./docs/03-prompts.md)
 
@@ -61,11 +61,11 @@ Documente os prompts que definem o comportamento do seu agente:
 
 ### 4. Aplicação Funcional
 
-Desenvolva um **protótipo funcional** do seu agente:
+Desenvolva o **protótipo**:
 
-- Chatbot interativo (sugestão: Streamlit, Gradio ou similar)
-- Integração com LLM (via API ou modelo local)
-- Conexão com a base de conhecimento
+- Interface de Chat (Streamlit, Gradio ou similar).
+- Integração com LLM (OpenAI, Google Gemini, Anthropic ou Local via Ollama).
+- Mecanismo de busca nos arquivos (RAG).
 
 📁 **Pasta:** [`src/`](./src/)
 
@@ -73,13 +73,11 @@ Desenvolva um **protótipo funcional** do seu agente:
 
 ### 5. Avaliação e Métricas
 
-Descreva como você avalia a qualidade do seu agente:
+Como medir o sucesso do agente?
 
-**Métricas Sugeridas:**
-
-- Precisão/assertividade das respostas
-- Taxa de respostas seguras (sem alucinações)
-- Conexão do visitante e o morador visitado
+- **Precisão:** A resposta condiz com o PDF/CSV?
+- **Privacidade:** O morador X conseguiu ver dados do morador Y? (Teste de falha).
+- **Tempo de Resposta:** O quão rápido o agente processa a dúvida.
 
 📄 **Template:** [`docs/04-metricas.md`](./docs/04-metricas.md)
 
@@ -87,59 +85,42 @@ Descreva como você avalia a qualidade do seu agente:
 
 ### 6. Pitch
 
-Grave um **pitch de 3 minutos** (estilo elevador) apresentando:
+Grave um vídeo ou escreva um roteiro de **3 minutos** focando em:
 
-- Qual problema seu agente resolve?
-- Como ele funciona na prática?
-- Por que essa solução é inovadora?
+- Problema vs. Solução.
+- Demonstração rápida.
+- Diferencial tecnológico.
 
 📄 **Template:** [`docs/05-pitch.md`](./docs/05-pitch.md)
 
 ---
 
-## Ferramentas Sugeridas
+## 📂 Estrutura do Repositório
 
-Todas as ferramentas abaixo possuem versões gratuitas:
-
-| Categoria           | Ferramentas                                                                                                                                                                      |
-| ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **LLMs**            | [ChatGPT](https://chat.openai.com/), [Copilot](https://copilot.microsoft.com/), [Gemini](https://gemini.google.com/), [Claude](https://claude.ai/), [Ollama](https://ollama.ai/) |
-| **Desenvolvimento** | [Streamlit](https://streamlit.io/), [Gradio](https://www.gradio.app/), [Google Colab](https://colab.research.google.com/)                                                        |
-| **Orquestração**    | [LangChain](https://www.langchain.com/), [LangFlow](https://www.langflow.org/), [CrewAI](https://www.crewai.com/)                                                                |
-| **Diagramas**       | [Mermaid](https://mermaid.js.org/), [Draw.io](https://app.diagrams.net/), [Excalidraw](https://excalidraw.com/)                                                                  |
-
----
-
-## Estrutura do Repositório
-
-```
-📁 lab-agente-financeiro/
+```text
+📁 lab-agente-condominio/
 │
 ├── 📄 README.md
 │
-├── 📁 data/                          # Dados mockados para o agente
-│   ├── ata_condominio.csv            # ata do condomino (CSV)
-│   ├── empresas.json                 # Perfil do cliente (JSON)
-│   ├── morador.json                  # Produtos disponíveis (JSON)
-│   ├── ocorrencias_condominio.csv    # Histórico de serviços, reservas (CSV)
-│   ├── regras.json                   # Para evitar transtorno e manter a armonia entre visinhos (JSON)
-|   └── visitantes.json               # Tenha o controle de todas as suas visitas da sua residencia (JSON)
+├── 📁 data/                          # Base de dados (CSV/JSON)
+│   ├── ata_condominio.csv
+│   ├── empresas.json
+│   ├── morador.json
+│   ├── ocorrencias_condominio.csv
+│   ├── regras.json
+│   └── visitantes.json
 │
-├── 📁 docs/                          # Documentação do projeto
-│   ├── 01-documentacao-agente.md     # Caso de uso e arquitetura
-│   ├── 02-base-conhecimento.md       # Estratégia de dados
-│   ├── 03-prompts.md                 # Engenharia de prompts
-│   ├── 04-metricas.md                # Avaliação e métricas
-│   └── 05-pitch.md                   # Roteiro do pitch
+├── 📁 docs/                          # Documentação detalhada
+│   ├── 01-documentacao-agente.md
+│   ├── 02-base-conhecimento.md
+│   ├── 03-prompts.md
+│   ├── 04-metricas.md
+│   └── 05-pitch.md
 │
-├── 📁 src/                           # Código da aplicação
-│   └── app.py                        # (exemplo de estrutura)
+├── 📁 src/                           # Código-fonte da aplicação
+│   └── app.py
 │
-├── 📁 assets/                        # Imagens e diagramas
-│   └── ...
-│
-└── 📁 examples/                      # Referências e exemplos
-    └── README.md
+└── 📁 examples/                      # Materiais de apoio
 ```
 
 ---

@@ -1,5 +1,10 @@
 # Documentação do Agente
 
+### Prompt usado para esta etapa:
+
+- Me ajude a documentar um agente ATA Condominio. O caso de uso é [descreva seu caso de uso].
+- Preciso deifnir: problema que resolve, publico-alvo, personalidade do agente, tom de voz e estratégias anti-alucinação. Use o template abaixo como base: [cole o template 01-documentação-agente.md]
+
 ## Caso de Uso
 
 ### Problema
@@ -30,7 +35,7 @@ Ata condominio.
 
 ### Personalidade
 
-> Como o agente se comporta? (ex: consultivo, direto, educativo)
+> Como o agente se comporta?
 
 - Formal
 - Direto
