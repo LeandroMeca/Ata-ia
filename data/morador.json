@@ -1,0 +1,12 @@
+{
+  "nome": "Carlos Mendes",
+  "idade": 41,
+  "apartamento": "Bloco B - 302",
+  "tipo_morador": "proprietario",
+  "numero_moradores": 3,
+  "possui_pet": true,
+  "veiculos": 1,
+  "email": "carlos@email.com",
+  "telefone": "11999999999",
+  "interesses": ["uso da piscina", "salão de festas", "segurança do condomínio"]
+}

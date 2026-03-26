@@ -1,0 +1,9 @@
+data,descricao,categoria,status
+2025-03-01,Som alto no apartamento 204,barulho,resolvido
+2025-03-04,Cachorro sem guia no corredor,animais,resolvido
+2025-03-10,Carro estacionado em vaga errada,garagem,resolvido
+2025-03-15,Luz queimada no corredor do 5º andar,manutencao,resolvido
+2025-03-22,Vazamento na área da garagem,manutencao,em_andamento
+2025-04-02,Elevador parado por falha técnica,manutencao,resolvido
+2025-04-05,Reserva duplicada do salão de festas,reserva,resolvido
+2025-04-12,Lixo deixado fora do horário,lixo,resolvido

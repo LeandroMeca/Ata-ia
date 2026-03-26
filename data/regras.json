@@ -1,0 +1,38 @@
+[
+  {
+    "regra": "Barulho",
+    "descricao": "Não é permitido som alto após as 22h",
+    "categoria": "convivencia",
+    "multa": true
+  },
+  {
+    "regra": "Uso da piscina",
+    "descricao": "Piscina aberta das 08h às 22h",
+    "categoria": "lazer",
+    "multa": false
+  },
+  {
+    "regra": "Animais",
+    "descricao": "Animais devem circular com guia nas áreas comuns",
+    "categoria": "convivencia",
+    "multa": true
+  },
+  {
+    "regra": "Garagem",
+    "descricao": "Cada morador deve estacionar apenas em sua vaga",
+    "categoria": "garagem",
+    "multa": true
+  },
+  {
+    "regra": "Reformas",
+    "descricao": "Reformas permitidas apenas entre 08h e 18h em dias úteis",
+    "categoria": "manutencao",
+    "multa": false
+  },
+  {
+    "regra": "Visitantes",
+    "descricao": "É proibido visitante transitar em vários apartamento sem comunicar a portaria",
+    "categoria": "visita",
+    "multa": false
+  }
+]
