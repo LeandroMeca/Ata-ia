@@ -47,6 +47,8 @@ dependencia maven
 
 Código para extrair os dados
 
+Java
+
 ```java
 import com.opencsv.CSVReader;
 import java.io.FileReader;
@@ -85,6 +87,22 @@ public class CarregarCSV {
         atas.forEach(System.out::println);
     }
 }
+
+```
+
+Python
+
+```python
+
+import json
+import pandas as pd
+
+ata = pd.read_csv('./data/ata_condominio.csv')
+empresa = json.load('./data/empresas.json')
+morador = json.load('./data/morador.json')
+ocorrecias = pd.read_csv('./data/ocorrencias_condominio.csv')
+regras= json.load('./data/regras.json')
+visitantes = json.load('./data/visitantes.json')
 
 ```
 
