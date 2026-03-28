@@ -96,6 +96,7 @@ Grave um vídeo ou escreva um roteiro de **3 minutos** focando em:
 📁 lab-agente-condominio/
 │
 ├── 📄 README.md
+├── app.py                             # Código-fonte da aplicação
 │
 ├── 📁 data/                          # Base de dados (CSV/JSON)
 │   ├── ata_condominio.csv
@@ -112,8 +113,6 @@ Grave um vídeo ou escreva um roteiro de **3 minutos** focando em:
 │   ├── 04-metricas.md
 │   └── 05-pitch.md
 │
-├── 📁 src/                           # Código-fonte da aplicação
-│   └── app.py
 │
 └── 📁 examples/                      # Materiais de apoio
 ```
