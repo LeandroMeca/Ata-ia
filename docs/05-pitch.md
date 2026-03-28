@@ -41,4 +41,4 @@ Esse agente não é apenas um livro: ele utiliza informações de eventos em tem
 
 > Cole aqui o link do seu pitch (YouTube, Loom, Google Drive, etc.)
 
-[Link do vídeo]
+[[Link do vídeo]](https://youtu.be/Ay_yDU4s4Oo)
