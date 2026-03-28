@@ -23,7 +23,7 @@ Com informações precisa e dinamicas esse agente estará na palma da sua mão p
 ### 4. Diferencial e Impacto (30 seg)
 > Por que essa solução é inovadora e qual é o impacto dela na sociedade?
 
-[Sua descrição aqui]
+Esse Agente não é um livro ele pega informação de eventos em tempo real, como por exemplo de um serviço que está sendo executado conforme o vídeo acima.
 
 ---
 
