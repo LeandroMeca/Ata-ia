@@ -63,12 +63,7 @@ Documente a engenharia de prompts utilizada:
 
 Desenvolva o **protótipo**:
 
-- Interface de Chat (Streamlit, Gradio ou similar).
-- Integração com LLM (OpenAI, Google Gemini, Anthropic ou Local via Ollama).
-- Mecanismo de busca nos arquivos (RAG).
-
-📁 **Pasta:** [`src/`](./src/)
-
+- app.py
 ---
 
 ### 5. Avaliação e Métricas
