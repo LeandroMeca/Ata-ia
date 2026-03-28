@@ -1,12 +1,13 @@
-# Código da Aplicação
+# Execução da aplicação
 
-Esta pasta contém o código do seu agente de Condominio.
+## Ollama Setup
+```bash
+ # 1 Instalar o Ollama
+ # 2 Baixar modelo leve ou usar Cloud
+ # 3 ollama pull MODELO
 
-## Estrutura Sugerida
-
-```
-app.py              # Aplicação principal (Streamlit/Gradio)
-
+ # 4 testar se funciona
+ollama run MODELO "Ola!"
 ```
 
 ## Exemplo de requirements.txt
