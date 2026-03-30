@@ -1,9 +1,36 @@
 data,descricao,categoria,status
-2025-03-01,Som alto no apartamento 204,barulho,resolvido
-2025-03-04,Cachorro sem guia no corredor,animais,resolvido
-2025-03-10,Carro estacionado em vaga errada,garagem,resolvido
-2025-03-15,Luz queimada no corredor do 5º andar,manutencao,resolvido
-2025-03-22,Vazamento na área da garagem,manutencao,em_andamento
-2025-04-02,Elevador parado por falha técnica,manutencao,resolvido
-2025-04-05,Reserva duplicada do salão de festas,reserva,resolvido
-2025-04-12,Lixo deixado fora do horário,lixo,resolvido
+2025-03-01 14:28:00,Som alto no apartamento 204,barulho,resolvido
+2025-03-04 19:04:00,Cachorro sem guia no corredor,animais,resolvido
+2025-03-10 23:09:00,Carro estacionado em vaga errada,garagem,resolvido
+2025-03-15 16:01:00,Luz queimada no corredor do 5º andar,manutencao,resolvido
+2025-03-22 22:42:00,Vazamento na área da garagem,manutencao,em_andamento
+2025-04-02 09:54:00,Elevador parado por falha técnica,manutencao,resolvido
+2025-04-05 16:55:00,Reserva duplicada do salão de festas,reserva,resolvido
+2025-04-12 20:07:00,Lixo deixado fora do horário,lixo,resolvido
+2025-04-16 08:40:00,Lixo reciclável misturado com orgânico no Bloco B,lixo,em_andamento
+2025-04-20 12:08:00,Lixo reciclável misturado com orgânico no Bloco B,lixo,em_andamento
+2025-04-26 11:45:00,Mudança realizada fora do horário permitido,convivencia,pendente
+2025-04-26 21:12:00,Portão da garagem não está fechando,garagem,resolvido
+2025-04-28 10:50:00,Conflito de agenda na churrasqueira,reserva,em_andamento
+2025-05-01 15:54:00,Criança brincando na garagem,convivencia,em_andamento
+2025-05-05 18:17:00,Carro de visitante na vaga do 501,garagem,pendente
+2025-05-06 21:31:00,Reclamação de barulho de salto alto no 402,barulho,pendente
+2025-05-08 16:11:00,Visitante não identificado tentou entrar no Bloco A,visita,em_andamento
+2025-05-13 18:44:00,Vazamento no teto do salão de festas,manutencao,em_andamento
+2025-05-13 21:57:00,Interfone do bloco C inoperante,manutencao,pendente
+2025-05-18 15:45:00,Pet fazendo necessidades na área da piscina,animais,resolvido
+2025-05-21 06:51:00,Ralo da área de serviço entupido - Bloco D - 104,manutencao,em_andamento
+2025-05-23 08:22:00,Fechadura da porta principal quebrada - Bloco B - 503,manutencao,em_andamento
+2025-05-23 09:35:00,Infiltração no teto da sala - Bloco D - 102,manutencao,pendente
+2025-05-23 10:14:00,Infiltração no teto da sala - Bloco B - 301,manutencao,pendente
+2025-05-25 08:01:00,Janela do quarto emperrada - Bloco A - 104,manutencao,pendente
+2025-05-26 02:28:00,Curto-circuito na tomada da cozinha - Bloco B - 201,manutencao,resolvido
+2025-05-28 06:17:00,Infiltração no teto da sala - Bloco C - 104,manutencao,resolvido
+2025-05-31 02:53:00,Troca de resistência do chuveiro solicitada - Bloco A - 204,manutencao,em_andamento
+2025-05-31 07:31:00,Ralo da área de serviço entupido - Bloco B - 502,manutencao,pendente
+2025-06-02 07:19:00,Vazamento no encanamento do banheiro - Bloco D - 102,manutencao,resolvido
+2025-06-08 08:22:00,Infiltração no teto da sala - Bloco D - 303,manutencao,em_andamento
+2025-06-11 11:15:00,Fiação exposta na varanda - Bloco D - 504,manutencao,resolvido
+2025-06-12 03:41:00,Fiação exposta na varanda - Bloco D - 102,manutencao,pendente
+2025-06-12 07:55:00,Ralo da área de serviço entupido - Bloco B - 502,manutencao,resolvido
+2025-06-17 03:26:00,Janela do quarto emperrada - Bloco B - 404,manutencao,resolvido
