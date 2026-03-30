@@ -1,11 +1,13 @@
 data,canal,tema,resumo,resolvido
-2025-01-10,assembleia,Barulho após 22h,Definido que não é permitido som alto após as 22h em dias de semana,sim
-2025-01-10,assembleia,Uso da piscina,Piscina permitida das 08h às 22h apenas para moradores e convidados registrados,sim
-2025-02-05,assembleia,Animais de estimação,Permitido animais desde que usem guia nas áreas comuns,sim
-2025-02-05,assembleia,Vagas de garagem,Proibido estacionar em vagas de outros moradores,sim
-2025-03-12,assembleia,Reforma em apartamentos,Reformas permitidas apenas entre 08h e 18h em dias úteis,sim
-2025-03-12,assembleia,Uso do salão de festas,Reserva obrigatória com antecedência mínima de 3 dias,sim
-2025-04-20,assembleia,Entrega de encomendas,Porteiro autorizado a receber encomendas pequenas,sim
-2025-05-15,assembleia,Uso do elevador de serviço,Mudanças devem usar apenas o elevador de serviço,sim
-2025-06-01,assembleia,Lixo reciclável,Separação de lixo reciclável obrigatória,sim
-2025-06-18,assembleia,Segurança do prédio,Instalação de novas câmeras de segurança aprovada,sim
+2025-01-10 19:30:00,assembleia,Barulho após 22h,Definido que não é permitido som alto após as 22h em dias de semana,sim
+2025-01-10 19:30:00,assembleia,Uso da piscina,Piscina permitida das 08h às 22h apenas para moradores e convidados registrados,sim
+2025-02-05 20:00:00,assembleia,Animais de estimação,Permitido animais desde que usem guia nas áreas comuns,sim
+2025-02-05 20:00:00,assembleia,Vagas de garagem,Proibido estacionar em vagas de outros moradores,sim
+2025-03-12 19:00:00,assembleia,Reforma em apartamentos,Reformas permitidas apenas entre 08h e 18h em dias úteis,sim
+2025-03-12 19:00:00,assembleia,Uso do salão de festas,Reserva obrigatória com antecedência mínima de 3 dias,sim
+2025-04-20 18:30:00,assembleia,Entrega de encomendas,Porteiro autorizado a receber encomendas pequenas,sim
+2025-05-15 20:00:00,assembleia,Uso do elevador de serviço,Mudanças devem usar apenas o elevador de serviço,sim
+2025-06-01 19:30:00,assembleia,Lixo reciclável,Separação de lixo reciclável obrigatória,sim
+2025-06-18 20:00:00,assembleia,Segurança do prédio,Instalação de novas câmeras de segurança aprovada,sim
+2025-06-18 20:00:00,assembleia,Acesso a informação de outro apartamento,è proibido,sim
+2025-06-18 20:00:00,assembleia,Pet ,são obrigado está fazendo o uso de guia,sim
