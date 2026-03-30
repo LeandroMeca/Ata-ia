@@ -1,0 +1,142 @@
+[
+  {
+    "apartamento": "Bloco D - 102",
+    "morador": "Elena Costa",
+    "site_origem": "Fast Shop",
+    "data_hora_chegada": "2026-03-29 17:33:00",
+    "status": "retirado"
+  },
+  {
+    "apartamento": "Bloco C - 104",
+    "morador": "Olívia Mendes",
+    "site_origem": "Americanas",
+    "data_hora_chegada": "2026-03-29 15:16:00",
+    "status": "aguardando_retirada"
+  },
+  {
+    "apartamento": "Bloco B - 502",
+    "morador": "Larissa Manoela",
+    "site_origem": "Amazon",
+    "data_hora_chegada": "2026-03-29 14:15:00",
+    "status": "retirado"
+  },
+  {
+    "apartamento": "Bloco B - 402",
+    "morador": "Natan Ribeiro",
+    "site_origem": "Mercado Livre",
+    "data_hora_chegada": "2026-03-28 16:18:00",
+    "status": "aguardando_retirada"
+  },
+  {
+    "apartamento": "Bloco D - 501",
+    "morador": "Ursula Pires",
+    "site_origem": "Petz",
+    "data_hora_chegada": "2026-03-28 13:44:00",
+    "status": "retirado"
+  },
+  {
+    "apartamento": "Bloco C - 402",
+    "morador": "Sandra Heloisa",
+    "site_origem": "Fast Shop",
+    "data_hora_chegada": "2026-03-28 08:18:00",
+    "status": "retirado"
+  },
+  {
+    "apartamento": "Bloco C - 203",
+    "morador": "Kelly Marques",
+    "site_origem": "Netshoes",
+    "data_hora_chegada": "2026-03-27 20:02:00",
+    "status": "aguardando_retirada"
+  },
+  {
+    "apartamento": "Bloco D - 504",
+    "morador": "Tarcísio Meira",
+    "site_origem": "Kabum",
+    "data_hora_chegada": "2026-03-26 19:57:00",
+    "status": "retirado"
+  },
+  {
+    "apartamento": "Bloco B - 203",
+    "morador": "Vera Fischer",
+    "site_origem": "Americanas",
+    "data_hora_chegada": "2026-03-26 11:18:00",
+    "status": "aguardando_retirada"
+  },
+  {
+    "apartamento": "Bloco C - 102",
+    "morador": "Marcos Frota",
+    "site_origem": "Shein",
+    "data_hora_chegada": "2026-03-26 09:16:00",
+    "status": "retirado"
+  },
+  {
+    "apartamento": "Bloco A - 305",
+    "morador": "Paulo Castro",
+    "site_origem": "Netshoes",
+    "data_hora_chegada": "2026-03-25 18:45:00",
+    "status": "retirado"
+  },
+  {
+    "apartamento": "Bloco B - 102",
+    "morador": "Zuleica Ramos",
+    "site_origem": "Dafiti",
+    "data_hora_chegada": "2026-03-25 18:09:00",
+    "status": "retirado"
+  },
+  {
+    "apartamento": "Bloco A - 101",
+    "morador": "Ana Souza",
+    "site_origem": "Centauro",
+    "data_hora_chegada": "2026-03-25 13:34:00",
+    "status": "retirado"
+  },
+  {
+    "apartamento": "Bloco A - 502",
+    "morador": "Leonardo Silva",
+    "site_origem": "Fast Shop",
+    "data_hora_chegada": "2026-03-25 09:56:00",
+    "status": "aguardando_retirada"
+  },
+  {
+    "apartamento": "Bloco A - 403",
+    "morador": "Diego Martins",
+    "site_origem": "Dafiti",
+    "data_hora_chegada": "2026-03-24 18:02:00",
+    "status": "aguardando_retirada"
+  },
+  {
+    "apartamento": "Bloco D - 601",
+    "morador": "Gabriel Montenegro",
+    "site_origem": "Netshoes",
+    "data_hora_chegada": "2026-03-24 15:55:00",
+    "status": "aguardando_retirada"
+  },
+  {
+    "apartamento": "Bloco D - 301",
+    "morador": "Yasmine Santos",
+    "site_origem": "Shopee",
+    "data_hora_chegada": "2026-03-24 08:47:00",
+    "status": "aguardando_retirada"
+  },
+  {
+    "apartamento": "Bloco A - 304",
+    "morador": "Júlia Cavalcante",
+    "site_origem": "Petz",
+    "data_hora_chegada": "2026-03-23 14:31:00",
+    "status": "retirado"
+  },
+  {
+    "apartamento": "Bloco A - 204",
+    "morador": "Henrique Lima",
+    "site_origem": "Kabum",
+    "data_hora_chegada": "2026-03-22 18:59:00",
+    "status": "aguardando_retirada"
+  },
+  {
+    "apartamento": "Bloco D - 104",
+    "morador": "Yuri Bagatela",
+    "site_origem": "Fast Shop",
+    "data_hora_chegada": "2026-03-22 18:41:00",
+    "status": "retirado"
+  }
+]
