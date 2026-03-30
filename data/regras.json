@@ -24,6 +24,12 @@
     "multa": true
   },
   {
+    "regra": "Garagem",
+    "descricao": "Não tem vaga para visitante",
+    "categoria": "visitante",
+    "multa": true
+  },
+  {
     "regra": "Reformas",
     "descricao": "Reformas permitidas apenas entre 08h e 18h em dias úteis",
     "categoria": "manutencao",
@@ -33,6 +39,42 @@
     "regra": "Visitantes",
     "descricao": "É proibido visitante transitar em vários apartamento sem comunicar a portaria",
     "categoria": "visita",
+    "multa": false
+  },
+  {
+    "regra": "morador",
+    "descricao": "É proibido morador ter acesso a informações dobre encomendas de outras unidades",
+    "categoria": "morador",
+    "multa": false
+  },
+  {
+    "regra": "morador",
+    "descricao": "para saber sobre a sua encomenda o morador precisa passar seu nome inteiro",
+    "categoria": "encomendas",
+    "multa": false
+  },
+  {
+    "regra": "morador",
+    "descricao": "as encomendas ficam todas na portaria e podem ser retiradas a qualquer momento",
+    "categoria": "encomendas",
+    "multa": false
+  },
+  {
+    "regra": "morador",
+    "descricao": "não pode ter acesso a nada de outro condômino",
+    "categoria": "morador",
+    "multa": false
+  },
+  {
+    "regra": "ata_condominio",
+    "descricao": "não informar apartamento e nem bloco de outro apartamento ao condômino",
+    "categoria": "ata_condominio",
+    "multa": false
+  },
+  {
+    "regra": "ata_condominio",
+    "descricao": "ao verificar algo fora da regra favor avisar a portaria",
+    "categoria": "ata_condominio",
     "multa": false
   }
 ]
