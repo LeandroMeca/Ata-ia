@@ -1,6 +1,38 @@
-{
-  "nome": "Limpeza & organização",
-  "servico": "limpeza da lixeira",
-  "descricao": "limpeza de lixeira e escadas das torres",
-  "horarios": "das 07:00 as 17:00"
-}
+[
+  {
+    "nome": "Limpeza & organização",
+    "servico": "limpeza da lixeira",
+    "descricao": "limpeza de lixeira e escadas das torres",
+    "horarios": "das 07:00 as 17:00"
+  },
+  {
+    "nome": "SeguraPrédio Segurança",
+    "servico": "monitoramento e portaria",
+    "descricao": "ronda noturna e monitoramento 24h das câmeras de segurança",
+    "horarios": "24 horas"
+  },
+  {
+    "nome": "Elevadores Alpha",
+    "servico": "manutenção de elevadores",
+    "descricao": "manutenção preventiva e corretiva dos elevadores de serviço e social",
+    "horarios": "das 08:00 as 18:00 (plantão 24h para emergências)"
+  },
+  {
+    "nome": "Verde Vida Paisagismo",
+    "servico": "jardinagem",
+    "descricao": "corte de grama, poda de árvores e cuidado das plantas nas áreas comuns",
+    "horarios": "das 08:00 as 12:00 (terças e quintas)"
+  },
+  {
+    "nome": "Acqua Limpa Piscinas",
+    "servico": "limpeza de piscina",
+    "descricao": "tratamento da água, aspiração e limpeza das bordas",
+    "horarios": "das 06:00 as 08:00 (segundas e sextas)"
+  },
+  {
+    "nome": "Controle Total Dedetizadora",
+    "servico": "dedetização",
+    "descricao": "controle de pragas e insetos no salão de festas e lixeiras",
+    "horarios": "sob agendamento"
+  }
+]
